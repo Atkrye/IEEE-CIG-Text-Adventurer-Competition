@@ -4,6 +4,6 @@ This is the repository for the 2016 IEEE CIG Text Adventurer Competition. This i
 
 Within this repository there is an example Java project built in Eclipse, contained within the <i>Example Project</i> folder, which contains an agent that explores the game through random movements.
 
-Full source of the ZPlet jar that allows the interface between agents and the Z Machine is included within the <i>Source</i> folder. 
+A second example project exists within the <i>Python - Example Project</i> which demonstrates using the frameworks build-in IOAgent.java class that allows exterior packages to interact with the Z-Machine.
 
 For more information on using these resources and getting started, please visit TODO.
