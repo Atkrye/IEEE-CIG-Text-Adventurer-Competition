@@ -11,8 +11,10 @@ and returns a string containing the command (e.g. "GO NORTH", "RUB LAMP", "INVEN
 
 To use this project, either:
 * Checkout the project directly via your favourite Git client 
-* OR Download the zipfile ('Download ZIP' button, above), unzip 
+* OR Download the zipfile ('Download ZIP' button, above), *unzip*
+
   and import into Eclipse via `File/Import.../Existing Projects into Workspace'.
+  Unzipping is necessary because importing directly from the zip archive may not work as desired.
 * Right-click on youpackagenamehere.RandomCommandAgent.java and `Run As/Java Application'.
 * Write your own Agent subclass as an alternative to RandomCommandAgent.
 
