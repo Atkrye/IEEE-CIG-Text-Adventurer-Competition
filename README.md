@@ -13,7 +13,7 @@ To use this project, either:
 * Checkout the project directly via your favourite Git client 
 * OR Download the zipfile ('Download ZIP' button, above), unzip 
   and import into Eclipse via `File/Import.../Existing Projects into Workspace'.
-* Write your own Agent subclass as an alternative to RandomCommandAgent.
+* Right-click on youpackagenamehere.RandomCommandAgent.java and `Run As/Java Application'.
 * Write your own Agent subclass as an alternative to RandomCommandAgent.
 
 A second example project exists within the <i>Python - Example Project</i> which demonstrates using the frameworks build-in IOAgent.java class that allows exterior packages to implement agents.
