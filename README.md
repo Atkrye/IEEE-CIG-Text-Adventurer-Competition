@@ -4,7 +4,7 @@ This is the repository for the 2016 IEEE CIG Text Adventurer Competition.
 Entrants submit agents to compete at completing games for the classic text adventuring engine, the Z-Machine.
 
 Contained within the <i>Example Project</i> folder of this repository,
-there is an example Java Eclipse project, which contains a minimal Agent that explores the game through random movements.
+there is an example Java Eclipse project, which contains a minimal `Agent` that explores the game through random movements.
 
 Agents implement a method which takes as input the text string that would be displayed to a human player each turn, 
 and returns a string containing the command (e.g. "GO NORTH", "RUB LAMP", "INVENTORY") to be executed.
@@ -13,14 +13,14 @@ To use this project, either:
 
 1. a) Checkout the project directly via your favourite Git client 
 
-OR 
+  OR 
 
 1. b) Download the zipfile ('Download ZIP' button, above), *unzip*
-  and import into Eclipse via `File/Import.../Existing Projects into Workspace'.
+  and import into Eclipse via 'File/Import.../Existing Projects into Workspace'.
   Unzipping is necessary because importing directly from the zip archive may not work as desired.
 
-2. Right-click on youpackagenamehere.RandomCommandAgent.java and `Run As/Java Application'.
-3. Write your own Agent subclass as an alternative to RandomCommandAgent. 
+2. Right-click on `yourpackagenamehere.RandomCommandAgent` and 'Run As/Java Application'.
+3. Write your own `Agent` subclass as an alternative to `RandomCommandAgent`. 
 
 The last step is AI complete in general, so it's a bit harder than the previous ones.
 
