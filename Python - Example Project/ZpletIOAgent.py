@@ -2,7 +2,10 @@ from subprocess import Popen, PIPE, STDOUT
 from random import randint
 import binascii
 def startZplet(jardir, gamedir):
-    p = Popen(['java', '-jar', jardir, 'ieeecig.advent.IOAgent', gamedir], stdin=PIPE, stdout=PIPE)
+    if(gamedir != ''):
+        p = Popen(['java', '-jar', jardir, 'ieeecig.advent.IOAgent', gamedir], stdin=PIPE, stdout=PIPE)
+    else:
+        p = Popen(['java', '-jar', jardir, 'ieeecig.advent.IOAgent'], stdin=PIPE, stdout=PIPE)
     return (readNarrative(p),p)
 
 def postCommand(p, command):
@@ -32,7 +35,7 @@ def action(narrative):
     return command
 
 print("Booting Z Machine...")
-ret = startZplet('../Example Project/lib3rd/ieee-cig-advent-1.2.jar','../resources/Advent.z5')
+ret = startZplet('../Example Project/lib3rd/ieee-cig-advent-1.2.jar','../resources/monkey-and-bananas-v1.z8')
 narrative = ret[0]
 p = ret[1]
 print("Z Machine Launched")
