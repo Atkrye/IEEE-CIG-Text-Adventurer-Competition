@@ -33,18 +33,26 @@ public final class RandomCommandAgent implements Agent {
 	///////////////////////////////
 	
 	public static void main( String [] args ) throws FileNotFoundException {
-		
-		// 1. Obtain a file or stream for the zMachineData 
-		InputStream zMachineData = RandomCommandAgent.class.getResourceAsStream( "monkey-and-bananas-v1.z8" );		
 
-		// alternatively:
-		// File zMachineData = new File( "myPath/someMachineGame.z8");
-		
-		// 2. Create an instance of your agent
+		// 1. Create an instance of your agent		
 		Agent agent = new RandomCommandAgent();
 		
-		// 3. Invoke the adventure framework
-		ieeecig.advent.Main.invoke( agent, zMachineData );
+		if( args.length == 0 ) {
+
+			// 2. Load the default adventure file
+			InputStream zMachineData = RandomCommandAgent.class.getResourceAsStream( "monkey-and-bananas-v1.z8" );
+			
+			// 3. Invoke the adventure framework			
+			ieeecig.advent.Main.invoke( agent, zMachineData );
+		}
+		else {
+
+			// 2. Load the adventure file, e.g. "myPath/someMachineGame.z8"			
+			File zMachineData = new File( args[ 0 ] );
+			
+			// 3. Invoke the adventure framework			
+			ieeecig.advent.Main.invoke( agent, zMachineData );
+		}
 	}
 }
 
