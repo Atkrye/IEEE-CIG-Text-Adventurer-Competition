@@ -40,7 +40,7 @@ public final class RandomCommandAgent implements Agent {
 		if( args.length == 0 ) {
 
 			// 2. Load the default adventure file
-			InputStream zMachineData = RandomCommandAgent.class.getResourceAsStream( "monkey-and-bananas-v1.z8" );
+			InputStream zMachineData = ieeecig.advent.Main.class.getResourceAsStream( "monkey-and-bananas-v1.z8" );
 			
 			// 3. Invoke the adventure framework			
 			ieeecig.advent.Main.invoke( agent, zMachineData );
