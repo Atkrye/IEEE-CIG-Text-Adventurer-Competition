@@ -3,6 +3,7 @@ package yourpackagenamehere;
 import ieeecig.advent.Agent;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Random;
@@ -34,7 +35,8 @@ public final class RandomCommandAgent implements Agent {
 	public static void main( String [] args ) throws FileNotFoundException {
 		
 		// 1. Obtain a file or stream for the zMachineData 
-		InputStream zMachineData = ieeecig.advent.Main.class.getResourceAsStream( "/resources/Advent.z5" );
+		InputStream zMachineData = RandomCommandAgent.class.getResourceAsStream( "monkey-and-bananas-v1.z8" );		
+
 		// alternatively:
 		// File zMachineData = new File( "myPath/someMachineGame.z8");
 		
