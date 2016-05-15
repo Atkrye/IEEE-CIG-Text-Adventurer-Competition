@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+gems: [jekyll-paginate, jekyll-gist]
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            The Text-Based Adventure AI Competition
+tagline:          'A CIG 2016 Competition'
+description:      'A CIG 2016 Competition for General Text-Based Adventure Game Playing Agents'
+url:              https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition
+baseurl:          /
+
+author:
+  name:           'The Text-Based Adventure AI Competition'
+  url:            https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition
+
+paginate:         5
+
+# Custom vars
+version:          1.1
+
+github:
+  repo:           https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition
