@@ -11,7 +11,7 @@ title:            The Text-Based Adventure AI Competition
 tagline:          'A CIG 2016 Competition'
 description:      'A CIG 2016 Competition for General Text-Based Adventure Game Playing Agents'
 url:              https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition
-baseurl:          /
+baseurl:          /IEEE-CIG-Text-Adventurer-Competition
 
 author:
   name:           'The Text-Based Adventure AI Competition'
