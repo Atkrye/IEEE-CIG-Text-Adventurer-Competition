@@ -28,6 +28,7 @@ A second example project exists within the <i>Python - Example Project</i> which
 
 It's possible to try out various different Z-Machine adventure files - many are freely available online (e.g. at the 'Interactive Fiction Archive').
 
+Additional information can be found on the [competition website][http://atkrye.github.io/IEEE-CIG-Text-Adventurer-Competition/].
 
 
 
