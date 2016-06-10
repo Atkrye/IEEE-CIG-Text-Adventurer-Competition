@@ -35,7 +35,7 @@ def action(narrative):
     return command
 
 print("Booting Z Machine...")
-ret = startZplet('../Example Project/lib3rd/ieee-cig-advent-1.2.jar','../resources/monkey-and-bananas-v1.z8')
+ret = startZplet('../Example Project/lib3rd/ieee-cig-advent-1.4.jar','../resources/monkey-and-bananas-v1.z8')
 narrative = ret[0]
 p = ret[1]
 print("Z Machine Launched")
