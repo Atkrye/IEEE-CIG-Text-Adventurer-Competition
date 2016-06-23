@@ -1,5 +1,6 @@
-<b><h6>IEEE-CIG-Text-Adventurer-Competition</h6></b>
+<b><h5>IEEE-CIG-Text-Adventurer-Competition</h5></b>
 
+<h6>Information</h6>
 This is the repository for the 2016 IEEE CIG Text Adventurer Competition. 
 Entrants submit agents to compete at completing games for the classic text adventuring engine, the Z-Machine.
 
@@ -16,6 +17,8 @@ Additionally, 3 hard-coded commands are included for the purposes of training a 
 -ieeecig.advent.Agent.Restart - Restarts the game, invoking a new version of the Agent passed to the program.
 
 -ieeecig.advent.Agent.SoftRestart - Restarts the game using the same Agent used in the previous execution.
+
+<h6>Usage</h6>
 
 To use this project, either:
 
