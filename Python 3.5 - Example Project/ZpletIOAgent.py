@@ -28,14 +28,14 @@ def readNarrative(p):
 
 def action(narrative):
     print("Narrative: " + narrative)
-    commands = ["n", "s", "e", "w", "verbose", "yes", "no"] 
+    commands = ["n", "s", "e", "w", "verbose", "yes", "no", "IEEECIG-ADVENT-QUIT-COMMAND", "IEEECIG-ADVENT-RESTART-COMMAND", "IEEECIG-ADVENT-SOFT-RESTART-COMMAND"] 
     command = commands[randint(0,len(commands)-1)]
     if(len(command)%2==1):
         command = command + " "
     return command
 
 print("Booting Z Machine...")
-ret = startZplet('../Example Project/lib3rd/ieee-cig-advent-1.4.jar','../resources/monkey-and-bananas-v1.z8')
+ret = startZplet('../Example Project/lib3rd/ieee-cig-advent-1.5.jar','../resources/monkey-and-bananas-v1.z8')
 narrative = ret[0]
 p = ret[1]
 print("Z Machine Launched")
