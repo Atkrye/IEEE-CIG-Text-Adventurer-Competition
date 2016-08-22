@@ -21,6 +21,7 @@ C1 is the dominant criterion, with C2 deciding in the event of a tie. C2 is inte
 The Text-Based Adventure AI Competition is being organised by:
 
 * Tim Atkinson, University of York
+* [Tara Copplestone](http://www.taracopplestone.co.uk), University of York and Aahrus University
 * [Sam Devlin](https://www-users.cs.york.ac.uk/~devlin/), University of York
 * [Tejas Kulkarni](http://tejask.com), Massachusetts Institute of Technology
 * [Karthik Narasimhan](http://people.csail.mit.edu/karthikn/), Massachusetts Institute of Technology
