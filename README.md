@@ -1,7 +1,7 @@
 <b><h5>IEEE-CIG-Text-Adventurer-Competition</h5></b>
 
 <h6>Information</h6>
-This is the repository for the 2016 IEEE CIG Text Adventurer Competition. 
+This is the repository for the 2017 IEEE CIG Text-Based Adventure AI Competition. 
 Entrants submit agents to compete at completing games for the classic text adventuring engine, the Z-Machine.
 
 Contained within the <i>Example Project</i> folder of this repository,
