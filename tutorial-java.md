@@ -7,7 +7,7 @@ This tutorial describes how to create a simple agent for the competition in Java
 
 **Step 1: Download the engine from GitHub** 
 
-Go to [the competition's GitHub resository](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition) and either checkout the master branch using your favourite Git client or simply download everything as a .zip file.
+Go to [the competition's GitHub repository](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition) and either checkout the master branch using your favourite Git client or simply download everything as a .zip file.
 
 **Step 2: Create a new Java 8 Project**
 
