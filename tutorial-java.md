@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Tutorial ((Java) Work In Progress)
+title: Tutorial (Java)
 ---
 
 This tutorial describes how to create a simple agent for the competition in Java. This tutorial uses screenshots from the Java IDE [Eclipse 4.6.3 for Linux](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon3) but should work for any IDE. 
 
-**Step 1: Download the engine from Github** 
+**Step 1: Download the engine from GitHub** 
 
-Go to [the competition's gitbub resository](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition) and either checkout everything using your favourite Git client or simply download everything as a .zip file.
+Go to [the competition's GitHub resository](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition) and either checkout the master branch using your favourite Git client or simply download everything as a .zip file.
 
 **Step 2: Create a new Java 8 Project**
 
@@ -19,7 +19,7 @@ Do this with your IDE of preference but to ensure compatability make sure that y
 
 The Z-Machine engine and base agent classes can be found in a .jar in "Example Project/lib3rd" in your downloaded repository. The most recent iteration at the time of writing is Version 1.5, found at [ieee-cig-advent-1.5.jar](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/blob/master/Example%20Project/lib3rd/ieee-cig-advent-1.5.jar). Place this .jar inside a /lib folder within your newly created project. 
 
-Add this .jar into your newly created Java project's class path. In Eclipse 4.6.3 this can be done by right clicking on the .jar and adding it to the build path of the project, but if you are unsure, search for instructions on adding a .jar to the class path for your specific IDE. 
+Add this .jar to your newly created Java project's class path. In Eclipse 4.6.3 this can be done by right clicking on the .jar and adding it to the build path of the project. If you are unsure, search for instructions on adding a .jar to the class path for your specific IDE. 
 
 ![addToBuildPath](https://raw.githubusercontent.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/gh-pages/tutorial_screenshots/java/addBuildPath.png)
 
@@ -37,11 +37,11 @@ To run MyAgent we firstly need to create some behaviour, however basic. For this
 
 **Step 5: Running the Agent**
 
-The final step is to test this Agent out on a Z-Machine game. Do this by invoking the engine [as shown](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/blob/master/Example%20Project/src/yourpackagenamehere/RandomCommandAgent.java), passing to an instance of your Agent and an InputStream pointed at the file path of the Game you wish to run:
+The final step is to test this Agent out on a Z-Machine game. Do this by invoking the engine [as shown](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/blob/master/Example%20Project/src/yourpackagenamehere/RandomCommandAgent.java), passing to an instance of your Agent and a Java File object pointed at the game you wish to run:
 
 ![randomAgent](https://raw.githubusercontent.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/gh-pages/tutorial_screenshots/java/runAgent.png)
 
-You can try this out with the Monkey and Bananas demo [provided in the repository](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/blob/master/resources/monkey-and-bananas-v1.z8) but any .z8 should work.
+You can try this out with the [Monkey and Bananas](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/blob/master/resources/monkey-and-bananas-v1.z8) demo provided in the repository.
 
 
 
