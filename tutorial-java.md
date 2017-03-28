@@ -3,7 +3,8 @@ layout: page
 title: Tutorial (Java)
 ---
 
-This tutorial describes how to create a simple agent for the competition in Java. This tutorial uses screenshots from the Java IDE [Eclipse 4.6.3 for Linux](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon3) but should work for any IDE. 
+This tutorial describes how to create a simple agent for the competition in Java. 
+*This tutorial uses screenshots from the Java IDE [Eclipse 4.6.3 for Linux](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon3) but should work for any IDE.*
 
 **Step 1: Download the engine from GitHub** 
 
@@ -15,7 +16,7 @@ Do this with your IDE of preference but to ensure compatability make sure that y
 
 ![create8Project](https://raw.githubusercontent.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/gh-pages/tutorial_screenshots/java/createFileScreenshot.png)
 
-**Step 3: Import the engine to your Project**
+**Step 3: Add the engine to the class path**
 
 The Z-Machine engine and base agent classes can be found in a .jar in "Example Project/lib3rd" in your downloaded repository. The most recent iteration at the time of writing is Version 1.5, found at [ieee-cig-advent-1.5.jar](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/blob/master/Example%20Project/lib3rd/ieee-cig-advent-1.5.jar). Place this .jar inside a /lib folder within your newly created project. 
 
