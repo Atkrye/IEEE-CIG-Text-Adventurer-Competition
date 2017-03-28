@@ -4,6 +4,7 @@ title: Tutorial (Java)
 ---
 
 This tutorial describes how to create a simple agent for the competition in Java. 
+
 *This tutorial uses screenshots from the Java IDE [Eclipse 4.6.3 for Linux](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon3) but should work for any IDE.*
 
 **Step 1: Download the engine from GitHub** 
@@ -38,7 +39,7 @@ To run MyAgent we firstly need to create some behaviour, however basic. For this
 
 **Step 5: Running the Agent**
 
-The final step is to test this Agent out on a Z-Machine game. Do this by invoking the engine [as shown](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/blob/master/Example%20Project/src/yourpackagenamehere/RandomCommandAgent.java), passing to an instance of your Agent and a Java File object pointed at the game you wish to run:
+The final step is to test this Agent out on a Z-Machine game. Do this by invoking the engine [as shown](https://github.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/blob/master/Example%20Project/src/yourpackagenamehere/RandomCommandAgent.java), passing an instance of your Agent and a Java File object pointed at the game you wish to run:
 
 ![randomAgent](https://raw.githubusercontent.com/Atkrye/IEEE-CIG-Text-Adventurer-Competition/gh-pages/tutorial_screenshots/java/runAgent.png)
 
