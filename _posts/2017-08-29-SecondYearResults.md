@@ -9,7 +9,7 @@ Last week, the 2017 Text-Based Adventure AI Competition results were announced a
 
 **2nd. CARL – Nancy Fulda, Daniel Ricks, Ben Murdoch, David Wingate. Brigham Young University, USA**
 
-**3rd. The Golovin Agent – Bartosz Kostka & Jarosław Kwiecień. University of Wrocław, Poland**
+**3rd. The Golovin Agent – Bartosz Kostka, Jarosław Kwiecień, Jakub Kowalski and Pawel Rychlikowski. University of Wrocław, Poland**
 
 Our winners again this year, was last year's winning agent that the team from BYU have made [available as open source](https://github.com/danielricks/BYU-Agent-2016) and [published at IJCAI](https://arxiv.org/abs/1703.03429).
 
