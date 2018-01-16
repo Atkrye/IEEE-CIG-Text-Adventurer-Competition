@@ -7,8 +7,6 @@ Before the widespread availability of graphics displays, text-based games such a
 
 Entrants will submit agents to play games for the classic text adventuring engine, the Z-Machine. The competition will be scored according to two independent criteria:
 
-Entrants will submit agents to play games for the classic text adventuring engine, the Z-Machine. The competition will be scored according to two independent criteria:
-
 * **C1**: Score on an unseen game instance (objective, built-in to the instance)
 * **C2**: Freedom from a priori bias (subjective decision by the judges)
 
