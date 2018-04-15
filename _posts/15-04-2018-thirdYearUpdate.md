@@ -8,5 +8,6 @@ Firstly, the competition may disappear from the CIG 2018 website in the coming d
 We are also planning to add some new features to the code base to help both the development of entrants and the running of the competition: 
 * The ability to run a given agent on a specified folder of games for a given number of steps.
 * In built detection and reporting of an agent's score on a given game.
+We'll let you know when these new features are available. They shouldn't cause any issues with your existing agents.
 
 If you have any questions, please get in touch at textadventureraicomp@gmail.com
