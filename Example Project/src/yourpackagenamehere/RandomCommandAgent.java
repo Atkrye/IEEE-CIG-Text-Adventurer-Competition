@@ -1,6 +1,7 @@
 package yourpackagenamehere;
 
 import ieeecig.advent.Agent;
+import ieeecig.advent.ZJApp;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -34,6 +35,8 @@ public final class RandomCommandAgent implements Agent {
 	
 	public static void main( String [] args ) throws FileNotFoundException {
 
+		ZJApp.VISIBLE = true;
+		
 		// 1. Create an instance of your agent		
 		Agent agent = new RandomCommandAgent();
 		
@@ -43,7 +46,7 @@ public final class RandomCommandAgent implements Agent {
 			InputStream zMachineData = ieeecig.advent.Main.class.getResourceAsStream( "monkey-and-bananas-v1.z8" );
 			
 			// 3. Invoke the adventure framework			
-			ieeecig.advent.Main.invoke( agent, zMachineData );
+			ieeecig.advent.Main.runGame( agent, zMachineData, 10, true );
 		}
 		else {
 
@@ -51,7 +54,7 @@ public final class RandomCommandAgent implements Agent {
 			File zMachineData = new File( args[ 0 ] );
 			
 			// 3. Invoke the adventure framework			
-			ieeecig.advent.Main.invoke( agent, zMachineData );
+			ieeecig.advent.Main.runGame( agent, new FileInputStream( zMachineData ), 10, true );
 		}
 	}
 }
