@@ -20,8 +20,6 @@ The Text-Based Adventure AI Competition is being organised by:
 
 * Tim Atkinson, University of York
 * [Hendrik Baier](https://hendrikbaier.jimdo.com), University of York
-* [Tara Copplestone](http://www.taracopplestone.co.uk), University of York and Aahrus University
-* [Sam Devlin](https://www-users.cs.york.ac.uk/~devlin/), University of York
 * [Jerry Swan](http://www.jerryswan.org), University of York
 
 Have questions or suggestions? Feel free to contact us via our [Google Group mailing list](https://groups.google.com/d/forum/text-adventure-ai-competition)
